@@ -51,20 +51,26 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Afficher les épisodes du livre 4 listés dans le fichier *episodes.tsv*, substituer la chaîne de caractère “Les ” par une chaîne de caractères vide et afficher la première lettre de chaque nom d’épisode.
 * Utilisez l’indice précédent pour décoder missive_2.txt.
 * Créez un fichier *missive_3.txt* au sein du répertoire *Missives* et ajouter les lignes suivantes:
+
 `Abricot
 Rhubarbe
 Tomate
 Haricot
 Ugli
 Raisin`
+
 * Affichez uniquement les premières lettres du fichier *missive_3.txt*.
 
 # Bonus
 
 * À partir de la commande suivante extraire la valeur du champs "value".
+
 `wget -q -O - https://api.chucknorris.io/jokes/random`
+
 * Appliquer la résultat à la commande cowsay de la façon suivante:
+
 `cowsay $(x)`
+
 où x est la commande précédente.
 
 # Auteur
