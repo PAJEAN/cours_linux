@@ -1,6 +1,6 @@
 # Travaux pratiques: Initiation aux commandes Unix/Linux (distribution Ubuntu)
 
-Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'acquérir le savoir et les compétences indispensables à l'information que vous êtes. Fais chauffer le moteur Marcel !
+Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'acquérir le savoir et les compétences indispensables à l'informaticien que vous êtes. Fais chauffer le moteur Marcel !
 
 ## Mise en place
 
