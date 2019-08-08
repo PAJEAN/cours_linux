@@ -52,11 +52,11 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Utilisez l’indice précédent pour décoder missive_2.txt.
 * Créez un fichier *missive_3.txt* au sein du répertoire *Missives* et ajouter les lignes suivantes:
 
-`Abricot
-Rhubarbe
-Tomate
-Haricot
-Ugli
+`Abricot\n
+Rhubarbe\n
+Tomate\n
+Haricot\n
+Ugli\n
 Raisin`
 
 * Affichez uniquement les premières lettres du fichier *missive_3.txt*.
