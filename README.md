@@ -6,7 +6,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 * Ouvrez un terminal (*Crt + Alt + T*).
 * Placez vous dans le répertoire *~/Document*
-* Télécharger l'archive compressée à l'adresse suivante: ...
+* Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
 * Décompresser l'archive *.zip* obtenue puis la supprimer.
 * Placez vous dans le répertoire *~/Document/kaamelott*.
 * Télécharger la commande **tree** et **cowsay** à l'aide du gestionnaire de paquets **apt** puis utiliser la commande **tree** à la racine du répertoire *kaamelott*.
