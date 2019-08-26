@@ -43,7 +43,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Afficher tous les mots contenant un palindromes de taille 6 au sein du fichier *vocabulaire.txt*.
 
 
-# Les missives
+## Les missives
 
 * Affichez à la suite les fichiers *arthur*, *lancelot_du_lac* et *perceval* respectivement localisés dans leur répertoire *Personnages*.
 * À partir de l’affichage précédent, affichez uniquement les majuscules.
@@ -56,7 +56,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 * Affichez uniquement les premières lettres du fichier *missive_3.txt*.
 
-# Bonus
+## Bonus
 
 * À partir de la commande suivante extraire la valeur du champs "value".
 
