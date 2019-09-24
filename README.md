@@ -4,7 +4,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 ## Mise en place
 
-* Ouvrez un terminal (*Crt + Alt + T*).
+* Ouvrez un terminal (*Ctrl + Alt + T*).
 * Placez vous dans le répertoire *~/Document*
 * Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
 * Décompresser l'archive *.zip* obtenue puis la supprimer.
