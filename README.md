@@ -5,11 +5,11 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 ## Mise en place
 
 * Ouvrez un terminal (*Ctrl + Alt + T*).
-* Placez vous dans le répertoire *~/Document*
+* Placez vous dans le répertoire *~/Documents* (si le dossier n'existe pas le créer).
 * Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
 * Décompresser l'archive *.zip* obtenue puis la supprimer.
-* Placez vous dans le répertoire *~/Document/kaamelott*.
-* Télécharger la commande **tree** et **cowsay** à l'aide du gestionnaire de paquets **apt** puis utiliser la commande **tree** à la racine du répertoire *kaamelott*.
+* Placez vous dans le répertoire *~/Documents/kaamelott*.
+* Télécharger la commande **tree** et **cowsay** à l'aide du gestionnaire de paquets **apt** puis utiliser la commande **tree** à la racine du répertoire *kaamelott* (le gestionnaire *apt* est disponible pour les distributions dérivées de Debian comme Ubuntu, sur Mac vous pouvez télécharger le gestionnaire de paquets Homebrew).
 * Modifier le nom du fichier *lanceleau_de_la_riviere* par *lancelot_du_lac*.
 * Créer un répertoire *Personnages* puis les sous-répertoires suivants: *Arthur*, *Perceval* et *Lancelot_du_lac*.
 * Déplacer les fichiers *arthur*, *perceval* et *lancelot_du_lac* dans leur répertoire Personnages correspondant.
