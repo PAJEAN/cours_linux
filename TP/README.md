@@ -62,7 +62,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 `wget -q -O - https://api.chucknorris.io/jokes/random`
 
-* Appliquer la résultat à la commande cowsay de la façon suivante:
+* Appliquer le résultat à la commande cowsay de la façon suivante:
 
 `cowsay $(x)`
 
