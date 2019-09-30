@@ -8,8 +8,8 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Placez vous dans le répertoire *~/Documents* (si le dossier n'existe pas le créer).
 * Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
 * Décompresser l'archive *.zip* obtenue puis la supprimer.
-* Placez vous dans le répertoire *~/Documents/TP/cours_linux-master*.
-* Télécharger la commande **tree** et **cowsay** à l'aide du gestionnaire de paquets **apt** puis utiliser la commande **tree** à la racine du répertoire *cours_linux-master* (le gestionnaire *apt* est disponible pour les distributions dérivées de Debian comme Ubuntu, sur Mac vous pouvez télécharger le gestionnaire de paquets *Homebrew*).
+* Placez vous dans le répertoire *~/Documents/cours_linux-master/TP/*.
+* Télécharger la commande **tree** et **cowsay** à l'aide du gestionnaire de paquets **apt** puis utiliser la commande **tree** à la racine du répertoire *TP* (le gestionnaire *apt* est disponible pour les distributions dérivées de Debian comme Ubuntu, sur Mac vous pouvez télécharger le gestionnaire de paquets *Homebrew*).
 * Modifier le nom du fichier *lanceleau_de_la_riviere* par *lancelot_du_lac*.
 * Créer un répertoire *Personnages* puis les sous-répertoires suivants: *Arthur*, *Perceval* et *Lancelot_du_lac*.
 * Déplacer les fichiers *arthur*, *perceval* et *lancelot_du_lac* dans leur répertoire Personnages correspondant.
