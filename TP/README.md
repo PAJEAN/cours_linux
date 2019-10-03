@@ -54,7 +54,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 `Abricot\nRhubarbe\nTomate\nHaricot\nUgli\nRaisin`
 
-* Affichez uniquement les premières lettres du fichier *missive_3.txt*.
+* Affichez uniquement la première lettre de chaque ligne du fichier *missive_3.txt*.
 
 ## Bonus
 
