@@ -28,6 +28,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Compter le nombre de fichiers *.txt* dans le répertoire *Missive*.
 * Elle est où la poulette ? À quelle ligne apparaît précisément le mot "poulette" dans le fichier *vocabulaire.txt*.
 * Créer une commande qui recherche un terme dans le fichier *vocabulaire.txt*. Lorsque le terme en paramètre n’existe pas alors afficher dans la console "Word not found".
+* Le fichier adresses_mail.txt contient des lignes vides. Afficher l'ensemble des adresses mail sans inclure les lignes vides.
 
 ## Les filtres
 * Afficher toutes les citations d’Arthur dans le fichier *citations.txt*.
@@ -41,6 +42,8 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Trier les épisodes (sans tenir compte de la première ligne) par livre, tome et épisode (délimiter avec $'\t' http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#ANSI_002dC-Quoting) du fichier *episodes.tsv*.
 * A partir notamment de la commande **pwd**, afficher uniquement le nom du répertoire dans lequel vous vous trouvez.
 * Afficher tous les mots de taille 6 contenant un palindromes au sein du fichier *vocabulaire.txt*.
+* Afficher à partir du fichier adresses_mail.txt tous les noms de domaine et les trier dans l'ordre alphabétique.
+* Afficher à partir du fichier adresses_mail.txt tous les noms d'extension et les compter individuellement.
 
 
 ## Les missives
