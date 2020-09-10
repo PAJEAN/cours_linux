@@ -43,7 +43,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * A partir notamment de la commande **pwd**, afficher uniquement le nom du répertoire dans lequel vous vous trouvez.
 * Afficher tous les mots de taille 6 contenant un palindromes au sein du fichier *vocabulaire.txt*.
 * Afficher à partir du fichier adresses_mail.txt tous les noms de domaine et les trier dans l'ordre alphabétique.
-* Afficher à partir du fichier adresses_mail.txt tous les noms d'extension et les compter individuellement.
+* Afficher à partir du fichier adresses_mail.txt tous les noms d'extension et le nombre de fois qu'ils apparaissent.
 
 
 ## Les missives
