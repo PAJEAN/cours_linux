@@ -6,23 +6,23 @@ Si vous êtes déjà sur Linux ou MacOS, vous n'êtes pas concernés par ce tuto
 
 Lien utile pour l'installation : https://www.ionos.fr/digitalguide/serveur/know-how/windows-subsystem-for-linux-wsl/
 
-Le pré-requis pour suivre cette installation est de disposer de la version 64  bit de Windows 1709 ou suivantes (https://fr.wikipedia.org/wiki/Historique_des_versions_de_Windows_10). Pour vérifier:
-* Appuyez sur les touches du clavier *Windows + R*, tapez « winver » dans le champ de texte qui se présente et appuyez sur *Entrée*, ou bien
-* Cliquez sur Démarrer > Paramètres > Système > Informations système : sur cette page, vous trouverez l’information souhaitée dans la rubrique « Spécifications Windows ».
+Le pré-requis pour suivre cette installation est de disposer de la version 64 bit de Windows 1709 ou supérieure (https://fr.wikipedia.org/wiki/Historique_des_versions_de_Windows_10). Pour vérifier:
+* Appuyer sur les touches du clavier *Windows + R*, taper « winver » dans le champ de texte qui se présente et appuyez sur *Entrée*, ou bien
+* Cliquer sur Démarrer > Paramètres > Système > Informations système : sur cette page, rechercher l’information souhaitée dans la rubrique « Spécifications Windows ».
 
 Si vous ne remplissez pas les pré-requis, vous pouvez suivre la procédure d'installation d'une VirtualBox. Sinon:
 
-* Dans la zone de recherche de la barre des tâches, tapez « panneau de configuration ». Ouvrez le panneau de configuration puis cliquez sur Programmes > Programmes et fonctionnalités > Activer ou désactiver des fonctionnalités Windows.
-* Cochez la case pour « Sous-système Windows pour Linux ».
-* Redémarrez votre ordinateur.
-* Ouvrez Microsoft Store et lancez une recherche pour « Ubuntu ».
-* Installez l'application nommée simplement "Ubuntu".
-* Une fois l’installation terminée, cliquez sur « Lancer ».
-* Dans la fenêtre qui s’ouvre, au premier démarrage, le logiciel télécharge et décompresse des paquets. Cette étape peut prendre quelques minutes. Enfin, le logiciel vous invitera à définir un nom d’utilisateur et le mot de passe associé pour votre nouvelle installation Linux.
+* Dans la zone de recherche de la barre des tâches, taper « panneau de configuration ». Ouvrir le panneau de configuration puis cliquer sur Programmes > Programmes et fonctionnalités > Activer ou désactiver des fonctionnalités Windows.
+* Cocher la case pour « Sous-système Windows pour Linux ».
+* Redémarrer votre ordinateur.
+* Ouvrir Microsoft Store et lancer une recherche pour « Ubuntu ».
+* Installer l'application nommée simplement « Ubuntu ».
+* Une fois l’installation terminée, cliquer sur "Lancer".
+* Dans la fenêtre qui s’ouvre, au premier démarrage, le logiciel télécharge et décompresse des paquets. Cette étape peut prendre quelques minutes. Ensuite, le logiciel vous invitera à définir un nom d’utilisateur et le mot de passe associé pour votre nouvelle installation Linux.
 
 Le système Ubuntu est installé sur le système hôte à cet emplacement: *C:\Users\<username>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState*.
 
-Vous pouvez accéder au système hôte à partir du chemin suivant: */mnt/c*.
+Le système hôte dans l'arborescence d'Ubuntu se situe via le chemin suivant: */mnt/c*.
 
 # Procédure d'installation d'une VirtualBox
 
