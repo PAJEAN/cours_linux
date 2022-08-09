@@ -1,6 +1,18 @@
 # Mise en place d'un environnement Linux
 
-Si vous êtes déjà sur Linux ou MacOS, vous n'êtes pas concernés par ce tutoriel. Si vous êtes sur Windows, préférez la solution WSL.
+Si vous êtes déjà sur Linux ou MacOS, vous n'êtes pas concernés par ce tutoriel. Si vous êtes sur Windows, 3 choix s'offrent à vous.
+
+# Utiliser la plateforme web Replit
+
+La plateforme de collaboration Replit est un IDE en ligne offrant la possibilité d'héberger des applications web. Elle propose d'accéder à un terminal (distribution Linux NixOs) et d'importer des répertoires depuis Github.
+
+* Rendez-vous sur https://replit.com/.
+* Créer un compte.
+* Créer un nouveau *Repl*.
+* *Import from Github*.
+* Copier/Coller le lien de ce répertoire Github.
+* Appuyer sur *Import from GitHub* en conservant le champ *Blank Repl*.
+* Accéder au *Shell*.
 
 # Installation de la distribution Ubuntu sur votre Windows (Windows Subsystem for Linux - WSL)
 

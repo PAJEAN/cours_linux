@@ -1,18 +1,17 @@
-# Travaux pratiques: Initiation aux commandes Unix/Linux (distribution Ubuntu)
+# Travaux pratiques: Initiation aux commandes Linux
 
-Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'acquérir le savoir et les compétences indispensables à l'informaticien que vous êtes. Fais chauffer le moteur Marcel !
+Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'acquérir le savoir et les compétences indispensables à l'informaticien que vous êtes.
 
 ## Mise en place
 
-* Ouvrez un terminal (*Ctrl + Alt + T*).
-* Placez vous dans le répertoire *~/Documents* (si le dossier n'existe pas le créer).
+* Accéder au terminal.
+
+Si vous n'utilisez pas l'environnement Replit:
+
+* Placez vous dans le répertoire *~/Documents* (si le répertoire n'existe pas, le créer).
 * Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
 * Décompresser l'archive *.zip* obtenue puis la supprimer.
 * Placez vous dans le répertoire *~/Documents/cours_linux-master/TP/*.
-* Télécharger la commande **tree** et **cowsay** à l'aide du gestionnaire de paquets **apt** puis utiliser la commande **tree** à la racine du répertoire *TP* (le gestionnaire *apt* est disponible pour les distributions dérivées de Debian comme Ubuntu, sur Mac vous pouvez télécharger le gestionnaire de paquets *Homebrew*).
-* Modifier le nom du fichier *lanceleau_de_la_riviere* par *lancelot_du_lac*.
-* Créer un répertoire *Personnages* puis les sous-répertoires suivants: *Arthur*, *Perceval* et *Lancelot_du_lac*.
-* Déplacer les fichiers *arthur*, *perceval* et *lancelot_du_lac* dans leur répertoire Personnages correspondant.
 
 ## Les processus
 
@@ -22,10 +21,15 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 ## Manipuler les fichiers
 
+* Lister tous les fichiers (y compris les fichiers cachés) et les répertoires. 
+* Modifier le nom du fichier *lanceleau_de_la_riviere* par *lancelot_du_lac*.
+* Créer un répertoire *Personnages* puis les sous-répertoires suivants: *Arthur*, *Perceval* et *Lancelot_du_lac*.
+* Déplacer les fichiers *arthur*, *perceval* et *lancelot_du_lac* dans leur répertoire Personnages correspondant.
 * Concaténer les fichiers *citation_1.txt* et *citation_2.txt* dans un fichier *citations.txt* puis supprimer les fichiers *citation_1.txt* et *citation_2.txt*.
 * Compter le nombre de mots présents dans le fichier *vocabulaire.txt*.
 * Compter le nombre de colonnes dans le fichier *episodes.tsv*.
-* Compter le nombre de fichiers *.txt* dans le répertoire *Missive*.
+* Compter le nombre de fichiers *.txt* dans le répertoire *.missive*.
+* Compter le nombre de fichiers et répertoires cachés.
 * Elle est où la poulette ? À quelle ligne apparaît précisément le mot "poulette" dans le fichier *vocabulaire.txt*.
 * Créer une commande qui recherche un terme dans le fichier *vocabulaire.txt*. Lorsque le terme en paramètre n’existe pas alors afficher dans la console "Word not found".
 * Le fichier adresses_mail.txt contient des lignes vides. Afficher l'ensemble des adresses mail sans inclure les lignes vides.
@@ -48,16 +52,16 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 ## Les missives
 
-* Affichez à la suite les fichiers *arthur*, *lancelot_du_lac* et *perceval* respectivement localisés dans leur répertoire *Personnages*.
-* À partir de l’affichage précédent, affichez uniquement les majuscules.
-* À partir de l’indice précédent, décodez le fichier *Missives/missives_1.txt*.
+* Afficher à la suite les fichiers *arthur*, *lancelot_du_lac* et *perceval* respectivement localisés dans leur répertoire *Personnages*.
+* À partir de l’affichage précédent, afficher uniquement les majuscules.
+* À partir de l’indice précédent, décoder le fichier *missives_1.txt* situé dans le répertoire caché *.missives*.
 * Afficher les épisodes du livre 4 listés dans le fichier *episodes.tsv*, substituer la chaîne de caractère “Les ” par une chaîne de caractères vide et afficher la première lettre de chaque nom d’épisode.
-* Utilisez l’indice précédent pour décoder missive_2.txt.
-* Créez un fichier *missive_3.txt* au sein du répertoire *Missives* et ajouter les lignes suivantes:
+* Utiliser l’indice précédent pour décoder missive_2.txt.
+* Créer un fichier *missive_3.txt* au sein du répertoire *Missives* et ajouter les lignes suivantes:
 
 `Abricot\nRhubarbe\nTomate\nHaricot\nUgli\nRaisin`
 
-* Affichez uniquement la première lettre de chaque ligne du fichier *missive_3.txt*.
+* Afficher uniquement la première lettre de chaque ligne du fichier *missive_3.txt*.
 
 ## Bonus
 
@@ -69,7 +73,7 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 `cowsay $(x)`
 
-où x est la commande précédente.
+où x est la commande précédente. Si vous n'avez pas la commande cowsay, vous pouvez la télécherger à l'aide de votre gestionnaire de package (apt pour les distribution debian, Homebrew pour MacOs, etc.).
 
 # Auteur
 
