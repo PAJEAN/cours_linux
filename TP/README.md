@@ -6,12 +6,15 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 * Accéder au terminal.
 
-Si vous n'utilisez pas l'environnement Replit:
+### Si vous n'utilisez pas l'environnement *Replit*:
 
 * Placez vous dans le répertoire *~/Documents* (si le répertoire n'existe pas, le créer).
 * Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
 * Décompresser l'archive *.zip* obtenue puis la supprimer.
 * Placez vous dans le répertoire *~/Documents/cours_linux-master/TP/*.
+
+### Si vous utilisez l'environnement *Replit*:
+* Placez vous dans le répertoire */home/runner/courslinux/TP/*
 
 ## Les processus
 
@@ -35,6 +38,7 @@ Si vous n'utilisez pas l'environnement Replit:
 * Le fichier adresses_mail.txt contient des lignes vides. Afficher l'ensemble des adresses mail sans inclure les lignes vides.
 
 ## Les filtres
+* Afficher uniquement les **noms des répertoires** fils de *TP/* en incluant les répertoires cachés.
 * Afficher toutes les citations d’Arthur dans le fichier *citations.txt*.
 * Créer un fichier *citations.txt* dans le répertoire Arthur contenant toutes les citations d’Arthur. Utiliser une opération de redirection.
 * Quel est la majuscule la plus utilisée dans le fichier *citations.txt*.
@@ -73,7 +77,7 @@ Si vous n'utilisez pas l'environnement Replit:
 
 `cowsay $(x)`
 
-où x est la commande précédente. Si vous n'avez pas la commande cowsay, vous pouvez la télécherger à l'aide de votre gestionnaire de package (apt pour les distribution debian, Homebrew pour MacOs, etc.).
+où x est la commande précédente. Si vous n'avez pas la commande cowsay, vous pouvez la télécherger à l'aide de votre gestionnaire de package (apt pour les distribution debian, Homebrew pour MacOs, etc.). Par exemple: `sudo apt install cowsay`.
 
 # Auteur
 
