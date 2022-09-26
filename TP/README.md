@@ -53,6 +53,10 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 * Quel est la majuscule la plus utilisée dans le fichier *citations.txt*.
 * Trouver tous les épisodes qui commencent par le pronom "Le" à partir du fichier *episodes.tsv*.
 * Afficher uniquement les **noms des répertoires** fils de *TP/* en incluant les répertoires cachés.
+    <details>
+        <summary><i style="color:#aaa">Indice</i></summary> 
+        <i>L'option -F de ls ajoute un indicateur aux entrées.</i>
+    </details>
 * Minifier toutes les majuscules dans le fichiers *episodes.tsv*.
 * Lister uniquement les noms des épisodes du livre 2 à partir du fichier *episodes.tsv*.
 * Lister uniquement les noms des épisodes qui ne sont pas du livre 2 à partir du fichier *episodes.tsv*.
