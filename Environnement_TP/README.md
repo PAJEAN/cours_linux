@@ -1,8 +1,10 @@
 # Mise en place d'un environnement Linux
 
-Si vous êtes déjà sur Linux ou MacOS, vous n'êtes pas concernés par ce tutoriel. Si vous êtes sur Windows, 3 choix s'offrent à vous.
+Si vous êtes déjà sur Linux ou MacOS, vous n'êtes pas concernés par ce tutoriel. Dans le cas contraire, voici différentes manières d'accéder à un environnement Linux.
 
-# Utiliser la plateforme web Replit
+# Solutions *onlines*
+
+## Replit
 
 La plateforme de collaboration Replit est un IDE en ligne offrant la possibilité d'héberger des applications web. Elle propose d'accéder à un terminal (distribution Linux NixOs) et d'importer des répertoires depuis Github.
 
@@ -10,19 +12,26 @@ La plateforme de collaboration Replit est un IDE en ligne offrant la possibilit�
 * Créer un compte.
 * Créer un nouveau *Repl*.
 * *Import from Github*.
-* Copier/Coller le lien de ce répertoire Github.
+* Copier/Coller le lien de ce répertoire Github (https://github.com/PAJEAN/cours_linux).
 * Appuyer sur *Import from GitHub* en conservant le champ *Blank Repl*.
 * Accéder au *Shell*.
 
-# Installation de la distribution Ubuntu sur votre Windows (Windows Subsystem for Linux - WSL)
+## MyBinder
 
-Lien utile pour l'installation : https://www.ionos.fr/digitalguide/serveur/know-how/windows-subsystem-for-linux-wsl/
+La solution MyBinder ne requière pas la création d'un compte. Toutefois, votre progression d'une session à l'autre sera perdue. Pour démarrer un nouveau container, il vous suffit simplement de cliquer sur le bouton ci-dessous pour accéder à un environnement JupyterLab incluant les fichiers de ce répertoire Github. Cliquer sur "Terminal" lorsque vous êtes à l'écran d'accueil du JupyterLab.
 
-Le pré-requis pour suivre cette installation est de disposer de la version 64 bit de Windows 1709 ou supérieure (https://fr.wikipedia.org/wiki/Historique_des_versions_de_Windows_10). Pour vérifier:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PAJEAN/cours_linux/HEAD)
+
+
+# Installation de la distribution Ubuntu sur votre Windows 10 (Windows Subsystem for Linux - WSL)
+
+Lien utile pour l'installation (testée uniquement sur Windows 10): https://www.ionos.fr/digitalguide/serveur/know-how/windows-subsystem-for-linux-wsl/
+
+Le prérequis pour suivre cette installation est de disposer de la version 64 bit de Windows 1709 ou supérieure (https://fr.wikipedia.org/wiki/Historique_des_versions_de_Windows_10). Pour vérifier:
 * Appuyer sur les touches du clavier *Windows + R*, taper « winver » dans le champ de texte qui se présente et appuyez sur *Entrée*, ou bien
 * Cliquer sur Démarrer > Paramètres > Système > Informations système : sur cette page, rechercher l’information souhaitée dans la rubrique « Spécifications Windows ».
 
-Si vous ne remplissez pas les pré-requis, vous pouvez suivre la procédure d'installation d'une VirtualBox. Sinon:
+Si vous ne remplissez pas les prérequis, vous pouvez suivre la procédure d'installation d'une VirtualBox. Sinon:
 
 * Dans la zone de recherche de la barre des tâches, taper « panneau de configuration ». Ouvrir le panneau de configuration puis cliquer sur Programmes > Programmes et fonctionnalités > Activer ou désactiver des fonctionnalités Windows.
 * Cocher la case pour « Sous-système Windows pour Linux ».
@@ -39,8 +48,6 @@ Le système hôte dans l'arborescence d'Ubuntu se situe via le chemin suivant: *
 # Procédure d'installation d'une VirtualBox
 
 Ce guide permet d'installer une machine virtuelle de type Linux (*Light Ubuntu*) à partir du logiciel VirtualBox.
-
-# Procédures
 
 * Télécharger et installer VirtualBox. Rendez-vous sur au lien suivant https://www.virtualbox.org/wiki/Downloads et sélectionner votre système d'exploitation hôte.
 
