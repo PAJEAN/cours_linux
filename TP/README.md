@@ -8,15 +8,33 @@ Ce TP constitue le guide de survie en territoire Linuxien. Il vous permettra d'a
 
 * Accéder au terminal.
 
-### Si vous n'utilisez pas l'environnement *Replit*:
+### Si vous n'utilisez pas un environnement *online*:
 
 * Placez vous dans le répertoire *~/Documents* (si le répertoire n'existe pas, le créer).
-* Télécharger l'archive compressée à l'adresse suivante: https://github.com/PAJEAN/cours_linux/archive/master.zip
-* Décompresser l'archive *.zip* obtenue puis la supprimer.
+* Télécharger l'archive compressée à l'aide de l'une des commandes suivantes:
+
+```
+wget https://github.com/PAJEAN/cours_linux/archive/master.zip
+```
+ou
+
+```
+git clone https://github.com/PAJEAN/cours_linux.git
+```
+
+* Décompresser l'archive *.zip* obtenue.
+
+```
+unzip master.zip
+```
+
 * Placez vous dans le répertoire *~/Documents/cours_linux-master/TP/*.
 
 ### Si vous utilisez l'environnement *Replit*:
 * Placez vous dans le répertoire */home/runner/courslinux/TP/*
+
+### Si vous utilisez l'environnement *MyBinder*:
+* Placez vous dans le répertoire *~/TP/*.
 
 ## Les processus
 
