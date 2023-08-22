@@ -1,6 +1,6 @@
 # Mise en place d'un environnement Linux
 
-Si vous êtes déjà sur Linux ou MacOS, vous n'êtes pas concernés par ce tutoriel. Dans le cas contraire, voici différentes manières d'accéder à un environnement Linux.
+Si vous êtes déjà sur Linux (voir MacOS), vous n'êtes pas concernés par ce tutoriel. Dans le cas contraire, voici différentes manières d'accéder à un environnement Linux.
 
 # Solutions *onlines*
 
@@ -16,13 +16,13 @@ La plateforme de collaboration Replit est un IDE en ligne offrant la possibilit�
 * Appuyer sur *Import from GitHub* en conservant le champ *Blank Repl*.
 * Accéder au *Shell*.
 
-## MyBinder
+## MyBinder (non recommandé)
 
-La solution MyBinder ne requière pas la création d'un compte. Toutefois, votre progression d'une session à l'autre sera perdue. Pour démarrer un nouveau container, il vous suffit simplement de cliquer sur le bouton ci-dessous pour accéder à un environnement JupyterLab incluant les fichiers de ce répertoire Github. Cliquer sur "Terminal" lorsque vous êtes à l'écran d'accueil du JupyterLab.
+La solution MyBinder ne requiert pas de compte. Toutefois, votre progression d'une session à l'autre sera perdue. Pour démarrer un nouveau container, il vous suffit simplement de cliquer sur le bouton ci-dessous afin d'accéder à un environnement JupyterLab incluant les fichiers de ce répertoire Github. Cliquer sur "Terminal" lorsque vous êtes à l'écran d'accueil du JupyterLab.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PAJEAN/cours_linux/HEAD)
 
-# Procédure d'installation d'une VirtualBox
+# Installation d'une VirtualBox
 
 Ce guide permet d'installer une machine virtuelle *Debian* à partir du logiciel VirtualBox. Votre machine doit être dotée d'au moins 8Go de RAM (afin d'éviter d'éventuels ralentissements).
 
@@ -76,7 +76,7 @@ Le prérequis pour suivre cette installation est de disposer de la version 64 bi
 * Appuyer sur les touches du clavier *Windows + R*, taper « winver » dans le champ de texte qui se présente et appuyez sur *Entrée*, ou bien
 * Cliquer sur Démarrer > Paramètres > Système > Informations système : sur cette page, rechercher l’information souhaitée dans la rubrique « Spécifications Windows ».
 
-Si vous ne remplissez pas les prérequis, vous pouvez suivre la procédure d'installation d'une VirtualBox. Sinon:
+Si vous remplissez les prérequis:
 
 * Dans la zone de recherche de la barre des tâches, taper « panneau de configuration ». Ouvrir le panneau de configuration puis cliquer sur Programmes > Programmes et fonctionnalités > Activer ou désactiver des fonctionnalités Windows.
 * Cocher la case pour « Sous-système Windows pour Linux ».
