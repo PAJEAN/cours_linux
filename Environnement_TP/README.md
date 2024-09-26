@@ -90,6 +90,8 @@ Le système Ubuntu est installé sur le système hôte à cet emplacement: *C:\U
 
 Le système hôte dans l'arborescence d'Ubuntu se situe via le chemin suivant: */mnt/c*.
 
+NB: selon la configuration de votre machine, vous devez activer les options de virtualisation au sein de votre BIOS.
+
 # Auteur
 
 Pierre-Antoine Jean (IMT Mines Alès).
