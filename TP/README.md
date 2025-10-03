@@ -71,7 +71,6 @@ unzip master.zip
 ## Filtrer & Trier
 
 * À quelle ligne apparaît précisément le mot "poulette" dans le fichier *vocabulaire.txt* (*"Elle est où la poulette ?"*).
-* À partir de la commande *grep*, afficher dans la console *"Word not found"* lorsque le terme recherché n'existe pas dans le fichier *vocabulaire.txt*.
 * A partir notamment de la commande **pwd**, afficher uniquement le nom du répertoire dans lequel vous vous trouvez.
     <details>
         <summary><i style="color:#aaa">Indice</i></summary> 
@@ -86,13 +85,12 @@ unzip master.zip
     </details>
 * Minifier toutes les majuscules dans le fichiers *episodes.tsv*.
 * Lister uniquement les noms des épisodes du livre 2 à partir du fichier *episodes.tsv*.
+<details>
+    <summary><i style="color:#aaa">A savoir</i></summary> 
+    <i>Le séparateur par défaut de la commande cut est la tabulation "\t".</i>
+</details>
 * Lister uniquement les noms des épisodes qui ne sont pas du livre 2 à partir du fichier *episodes.tsv*.
 * Trier dans l’ordre alphabétique uniquement les noms des épisodes du fichier *episodes.tsv*.
-* Trier les épisodes (sans tenir compte de la première ligne) par livre, tome et épisode (délimiter avec l'option *-t$'\t'* http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#ANSI_002dC-Quoting) du fichier *episodes.tsv*.
-    <details>
-        <summary><i style="color:#aaa">Indice</i></summary> 
-        <i>L'option -k suivie d'un numéro de colonne permet de trier selon une colonne spécifique (l'option peut être employée plusieurs fois).</i>
-    </details>
 * Afficher tous les mots de taille 6 contenant un palindromes au sein du fichier *vocabulaire.txt*.
     <details>
         <summary><i style="color:#aaa">Indice</i></summary> 
